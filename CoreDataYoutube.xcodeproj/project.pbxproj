@@ -10,10 +10,11 @@
 		6ADC122E1B2E3763002A8590 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC122D1B2E3763002A8590 /* AppDelegate.swift */; };
 		6ADC12311B2E3763002A8590 /* CoreDataYoutube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC122F1B2E3763002A8590 /* CoreDataYoutube.xcdatamodeld */; };
 		6ADC12331B2E3763002A8590 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC12321B2E3763002A8590 /* ViewController.swift */; };
-		6ADC12361B2E3763002A8590 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC12341B2E3763002A8590 /* Main.storyboard */; };
 		6ADC12381B2E3763002A8590 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC12371B2E3763002A8590 /* Images.xcassets */; };
 		6ADC123B1B2E3763002A8590 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC12391B2E3763002A8590 /* LaunchScreen.xib */; };
 		6ADC12471B2E3763002A8590 /* CoreDataYoutubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC12461B2E3763002A8590 /* CoreDataYoutubeTests.swift */; };
+		6ADC12531B2E3BC8002A8590 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ADC12521B2E3BC8002A8590 /* Storyboard.storyboard */; };
+		6ADC12551B2E3D4E002A8590 /* vcMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ADC12541B2E3D4E002A8590 /* vcMain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,12 +33,13 @@
 		6ADC122D1B2E3763002A8590 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6ADC12301B2E3763002A8590 /* CoreDataYoutube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataYoutube.xcdatamodel; sourceTree = "<group>"; };
 		6ADC12321B2E3763002A8590 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6ADC12351B2E3763002A8590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6ADC12371B2E3763002A8590 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6ADC123A1B2E3763002A8590 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6ADC12401B2E3763002A8590 /* CoreDataYoutubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataYoutubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADC12451B2E3763002A8590 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ADC12461B2E3763002A8590 /* CoreDataYoutubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataYoutubeTests.swift; sourceTree = "<group>"; };
+		6ADC12521B2E3BC8002A8590 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		6ADC12541B2E3D4E002A8590 /* vcMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vcMain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +83,12 @@
 			children = (
 				6ADC122D1B2E3763002A8590 /* AppDelegate.swift */,
 				6ADC12321B2E3763002A8590 /* ViewController.swift */,
-				6ADC12341B2E3763002A8590 /* Main.storyboard */,
 				6ADC12371B2E3763002A8590 /* Images.xcassets */,
 				6ADC12391B2E3763002A8590 /* LaunchScreen.xib */,
 				6ADC122F1B2E3763002A8590 /* CoreDataYoutube.xcdatamodeld */,
 				6ADC122B1B2E3763002A8590 /* Supporting Files */,
+				6ADC12521B2E3BC8002A8590 /* Storyboard.storyboard */,
+				6ADC12541B2E3D4E002A8590 /* vcMain.swift */,
 			);
 			path = CoreDataYoutube;
 			sourceTree = "<group>";
@@ -195,7 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ADC12361B2E3763002A8590 /* Main.storyboard in Resources */,
+				6ADC12531B2E3BC8002A8590 /* Storyboard.storyboard in Resources */,
 				6ADC123B1B2E3763002A8590 /* LaunchScreen.xib in Resources */,
 				6ADC12381B2E3763002A8590 /* Images.xcassets in Resources */,
 			);
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ADC12331B2E3763002A8590 /* ViewController.swift in Sources */,
+				6ADC12551B2E3D4E002A8590 /* vcMain.swift in Sources */,
 				6ADC12311B2E3763002A8590 /* CoreDataYoutube.xcdatamodeld in Sources */,
 				6ADC122E1B2E3763002A8590 /* AppDelegate.swift in Sources */,
 			);
@@ -240,14 +244,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6ADC12341B2E3763002A8590 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6ADC12351B2E3763002A8590 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6ADC12391B2E3763002A8590 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
